@@ -1,0 +1,3 @@
+My name is Aida Camacho Ponce de Leon. I'm from Mexico. I love dogs...
+
+![image](https://github.com/Rising-Stars-by-Sunshine/STATS201_Aida/assets/156169576/4a70e5d4-e08e-4a75-9d91-99836e92b994)
