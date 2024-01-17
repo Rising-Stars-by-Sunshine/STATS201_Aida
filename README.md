@@ -1,7 +1,9 @@
 
-<div style="text-align:center; border: 2px solid #555; padding: 10px;">
-  <img src="photo.png" alt="Aida's Photo" width="200"/>
-</div>
+<p align="center">
+  <kbd>
+    <img src="photo.png" alt="Aida's Photo" width="200" style="border: 2px solid #555; padding: 10px;"/>
+  </kbd>
+</p>
 
 
 # Aida Camacho Ponce de Leon 👩‍💻🌎
