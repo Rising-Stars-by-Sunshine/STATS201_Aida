@@ -1,6 +1,4 @@
 
-![Alt Text](photo.png)
-
 <img src="photo.png" alt="Aida's Photo" width="200"/>
 
 # Aida Camacho Ponce de Leon 👩‍💻🌎
