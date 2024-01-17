@@ -1,5 +1,5 @@
 
-![Alt Text](Screenshot 2024-01-17 at 15.35.17.png)
+![Alt Text](STATS201_Aida/photo.png)
 
 # Aida Camacho Ponce de Leon 👩‍💻🌎
 
