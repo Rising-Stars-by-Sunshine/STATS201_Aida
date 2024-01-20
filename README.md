@@ -1,8 +1,9 @@
 <p align="center">
   <kbd>
-    <img src="photo.png" alt="Aida's Photo" width="200" style="border: 2px solid purple; padding: 10px;"/>
+    <img src="photo.png" alt="Aida's Photo" width="200" style="border: 2px solid purple !important; padding: 10px;"/>
   </kbd>
 </p>
+
 
 
 
