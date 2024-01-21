@@ -23,6 +23,6 @@ All code from Our World in Data is open-sourced under the MIT license and can be
 
 <p align="center">
   <kbd>
-    <img src="data_github.png" alt="github"/>
+    <img src="/Users/aidacamacho/Desktop/STATS 201 Github/STATS201_Aida/data_github.png" alt="github"/>
   </kbd>
 </p>
