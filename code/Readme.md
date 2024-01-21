@@ -22,6 +22,7 @@ The data was downloaded from Our World in Data, a scientific online publication 
     <img src="data_site.png" alt="OWID"/>
   </kbd>
 </p>
+
 *Image created by OWID*
 
 **Step 2**
@@ -33,4 +34,5 @@ All code from Our World in Data is open-sourced under the MIT license and can be
     <img src="data_github.png" alt="github"/>
   </kbd>
 </p>
+
 *Image created by OWID*
