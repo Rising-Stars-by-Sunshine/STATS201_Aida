@@ -13,4 +13,4 @@ This file provides a detailed description of each variable in the dataset. It se
 This file is the complete dataset. Due to its size, no preview is available in Github but it can still be downloaded from this link.
 
 ## References
-Ritchie, Hannah, Pablo Rosado, and Max Roser. 2023. "Energy." OurWorldInData.org. 'https://ourworldindata.org/energy'[Online Resource].
+Ritchie, Hannah, Pablo Rosado, and Max Roser. 2023. "Energy." OurWorldInData.org. 'https://ourworldindata.org/energy' [Online Resource].
