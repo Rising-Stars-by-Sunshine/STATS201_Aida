@@ -17,6 +17,13 @@ The data was downloaded from Our World in Data, a scientific online publication 
 > On this page, you can find all our data, visualizations, and writing relating to energy. 
 (Rosado, et.al, 2023)
 
+<p align="center">
+  <kbd>
+    <img src="data_site.png" alt="OWID"/>
+  </kbd>
+</p>
+*Image created by OWID*
+
 **Step 2**
 
 All code from Our World in Data is open-sourced under the MIT license and can be found on GitHub. Thus, I downloaded the data and codebook directly from their official [Github repository](https://github.com/owid/energy-data/blob/master/README.md). 
@@ -26,3 +33,4 @@ All code from Our World in Data is open-sourced under the MIT license and can be
     <img src="data_github.png" alt="github"/>
   </kbd>
 </p>
+*Image created by OWID*
