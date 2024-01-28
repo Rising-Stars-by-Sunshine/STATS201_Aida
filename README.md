@@ -26,7 +26,7 @@
 
 2. [Data](data/Readme.md)
    - [Sample Data](./data/owid-energy-data.csv)
-   - [Data Description](./data/Readme.md#data-dictionary)
+   - [Data Description](./data/Readme.md#dataset-description)
    - [Data Set Structure](./data/Readme.md#dataset-structure)
    - [References](./data/Readme.md#references)
 
