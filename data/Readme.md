@@ -50,9 +50,7 @@ Detailed description of each variable in the dataset.
 | fossil_energy_per_capita           | Primary energy consumption from fossil fuels per capita| Annual| Kilowatt-hour per person| Numeric           |
 | fossil_fuel_consumption           | Total fossil fuel consumption                   | Annual        | Terawatt-hour          | Numeric                |
 | fossil_share_elec                 | Share of electricity from fossil fuels          | Annual        | Percentage             | Numeric                |
-| fossil_share_energy               | Share of primary energy from fossil fuels
-
-       | Annual        | Percentage             | Numeric                |
+| fossil_share_energy               | Share of primary energy from fossil fuels       | Annual        | Percentage             | Numeric                |
 | gas_cons_change_pct               | Annual percentage change in gas consumption    | Annual        | Percentage             | Numeric                |
 | gas_cons_change_twh               | Annual change in gas consumption (TWh)         | Annual        | Terawatt-hour          | Numeric                |
 | gas_consumption                   | Total gas consumption                           | Annual        | Terawatt-hour          | Numeric                |
