@@ -44,7 +44,9 @@ The data downloaded was already orginized in a CSV file.
 Looking at the data in the csv file, it is clear that the data needs to be cleaned to remove null values focusing on the research question at hand. For this, the plan is to use python libraries such as Pandas. 
 
 # Data Visualization
-The data visualization was done using the dash app. This [file](app.py) contians the code to run the interactive plot of a Time Series analysis of Energy Production including, total electricity generation, from fossil fuels, and from renewables. Below are the static plots of these variables throughout time for the US. The reason why only teh US is shown is because there are a lot of locations repreesnted in the dataset and the visualization of only one major power is enough to get an idea of waht the raw data shows. To interact with the plot, run the code on your local computer. 
+
+### Figure 1
+The data visualization was done using the dash app. This [file](app1.py) contians the code to run the interactive plot of a Time Series analysis of Energy Production including, total electricity generation, from fossil fuels, and from renewables. Below are the static plots of these variables throughout time for the US. The reason why only teh US is shown is because there are a lot of locations repreesnted in the dataset and the visualization of only one major power is enough to get an idea of waht the raw data shows. To interact with the plot, run the code on your local computer. 
 
 <p align="left">
   <kbd>
@@ -69,3 +71,15 @@ The data visualization was done using the dash app. This [file](app.py) contians
 </p>
 
 *Figure 3: Total Electricity produced in the US throughout time. Image created with Dash app*
+
+
+### Figure 2
+This [file](app2.py) contians the code to run the interactive plot of a Global Distribution Choropleth Map that explores how different countries contribute to energy production. 
+
+<p align="center">
+  <kbd>
+    <img src="map.png" alt="dash"/>
+  </kbd>
+</p>
+
+*Figure 3: Total Electricity produced in different countries. Image created with Dash app*
