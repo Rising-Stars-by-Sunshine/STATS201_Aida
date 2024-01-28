@@ -43,64 +43,6 @@ The data downloaded was already orginized in a CSV file.
 
 Looking at the data in the csv file, it is clear that the data needs to be cleaned to remove null values focusing on the research question at hand. For this, the plan is to use python libraries such as Pandas. 
 
-
-# Data Query Process (pseudo-code)
-
-## 1. Data Collection:
-
-- **Download Dataset from Our World in Data:**
-  - The primary dataset is sourced from Our World in Data, available [here](https://ourworldindata.org/energy).
-  - Use the provided link to download the dataset for analysis.
-
-## 2. Exploratory Data Analysis:
-
-- **Understand Dataset Structure:**
-  - Examine the dataset columns and their descriptions to gain insights into available variables.
-  
-- **Data Cleaning and Preprocessing:**
-  - Address any missing or inconsistent data.
-  - Filter only the necessary variables for analysis.
-  
-## 3. Data Visualization:
-
-- **Visualizing Energy Patterns:**
-  - Utilize Python data visualization libraries like Plotly and Dash for creating interactive visualizations.
-  - Create time series plots for electricity generation, renewables electricity, and fossil electricity.
-  - Explore the energy consumption patterns over time.
-
-- **Global Distribution Maps:**
-  - Develop choropleth maps to showcase the contribution of different countries to energy consumption, production, and anomalies.
-  - Visualize variables such as population, electricity generation, etc., on a global scale.
-
-- **Anomaly Detection Plots:**
-  - Identify anomalies or changes in energy consumption patterns.
-  - Create line plots for variables like energy consumption change percentage and renewables consumption change percentage.
-
-## 4. Dash App Implementation:
-
-- **Time Series Plot Component:**
-  - Implement a Dash app with a time series plot.
-  - Include a dash component that allows users to switch between electricity generation, renewables electricity, and fossil electricity.
-
-- **Global Distribution Maps Component:**
-  - Extend the Dash app to include global distribution maps.
-  - Allow users to explore contributions to energy consumption, production, and anomalies by different countries.
-
-- **Anomaly Detection Plots Component:**
-  - Enhance the Dash app with anomaly detection line plots.
-  - Enable users to identify and analyze anomalies or changes in energy consumption patterns.
-
-## 5. Interactivity and Filtering:
-
-- **Refine Visualizations for Readability:**
-  - Analyze the visualizations and ensure they effectively communicate insights.
-  - Consider filtering data or adjusting plot scales for better readability.
-  
-## 6. Embed in Readme.md:
-
-- **Update Readme.md:**
-  - Embed the visualizations and Dash app in your Readme.md to provide an overview of your research and insights.
-
 # Data Visualization
 
 ### Visualization 1
@@ -166,6 +108,64 @@ Variables: energy_cons_change_pct, renewables_cons_change_pct, countries, year
 </p>
 
 *Figure 6: Renewables Consumption Change Percentage. Image created with Dash app*
+
+
+# Data Query Process (pseudo-code)
+
+## 1. Data Collection:
+
+- **Download Dataset from Our World in Data:**
+  - The primary dataset is sourced from Our World in Data, available [here](https://ourworldindata.org/energy).
+  - Use the provided link to download the dataset for analysis.
+
+## 2. Exploratory Data Analysis:
+
+- **Understand Dataset Structure:**
+  - Examine the dataset columns and their descriptions to gain insights into available variables.
+  
+- **Data Cleaning and Preprocessing:**
+  - Address any missing or inconsistent data.
+  - Filter only the necessary variables for analysis.
+  
+## 3. Data Visualization:
+
+- **Visualizing Energy Patterns:**
+  - Utilize Python data visualization libraries like Plotly and Dash for creating interactive visualizations.
+  - Create time series plots for electricity generation, renewables electricity, and fossil electricity.
+  - Explore the energy consumption patterns over time.
+
+- **Global Distribution Maps:**
+  - Develop choropleth maps to showcase the contribution of different countries to energy consumption, production, and anomalies.
+  - Visualize variables such as population, electricity generation, etc., on a global scale.
+
+- **Anomaly Detection Plots:**
+  - Identify anomalies or changes in energy consumption patterns.
+  - Create line plots for variables like energy consumption change percentage and renewables consumption change percentage.
+
+## 4. Dash App Implementation:
+
+- **Time Series Plot Component:**
+  - Implement a Dash app with a time series plot.
+  - Include a dash component that allows users to switch between electricity generation, renewables electricity, and fossil electricity.
+
+- **Global Distribution Maps Component:**
+  - Extend the Dash app to include global distribution maps.
+  - Allow users to explore contributions to energy consumption, production, and anomalies by different countries.
+
+- **Anomaly Detection Plots Component:**
+  - Enhance the Dash app with anomaly detection line plots.
+  - Enable users to identify and analyze anomalies or changes in energy consumption patterns.
+
+## 5. Interactivity and Filtering:
+
+- **Refine Visualizations for Readability:**
+  - Analyze the visualizations and ensure they effectively communicate insights.
+  - Consider filtering data or adjusting plot scales for better readability.
+  
+## 6. Embed in Readme.md:
+
+- **Update Readme.md:**
+  - Embed the visualizations and Dash app in your Readme.md to provide an overview of your research and insights.
 
 
 ## Data Query flowchart
