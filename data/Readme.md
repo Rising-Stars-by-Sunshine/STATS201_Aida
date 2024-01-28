@@ -140,11 +140,6 @@ The OWID Energy Dataset includes relevant variables such as GDP, biofuel consump
 
 Rosado, Pablo., Ritchie, Hannah., and Roser, Max. 2023. "Energy." OurWorldInData.org. Retrieved from 'https://ourworldindata.org/energy' [Online Resource].
 
----
-markmap:
-  colorFreezeLevel: 2
----
-
 # Investigating the Impact of External Factors in Energy Consumption Anomalies
 
 ## Dataset Structure
@@ -183,46 +178,9 @@ The dataset includes various variables related to global energy dynamics, provid
 
 ## Flowchart
 
-```mermaid
-graph TB
-  subgraph "Energy Variables"
-    A[Country Names]
-    B[Years]
-    C[Population]
-    D[GDP]
-  end
+<details>
+  <summary>Click to expand</summary>
+  
+  ![Flowchart](https://www.draw.io/?lightbox=1&edit=_blank&layers=1&nav=1&title=Energy%20Consumption%20Anomalies#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1CsBv7rPXMlQyV7XE_tWkNekFX9Q4I9L8)
+</details>
 
-  subgraph "Energy Production"
-    E[Biofuel Consumption]
-    F[Coal Usage]
-    G[Gas Consumption]
-    H[Nuclear Power]
-    I[Oil Consumption]
-    J[Hydropower]
-    K[Low-Carbon Energy]
-    L[Renewables]
-  end
-
-  subgraph "External Factors"
-    M[Economic Events]
-    N[Policy Changes]
-    O[Global Phenomena]
-    P[COP28 Results]
-  end
-
-  A --> E
-  B --> F
-  C --> G
-  D --> H
-  E --> |
-  F --> |
-  G --> |
-  H --> |
-  I --> |
-  J --> |
-  K --> |
-  L --> |
-  M --> |
-  N --> |
-  O --> |
-  P --> |
