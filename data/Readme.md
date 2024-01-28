@@ -8,9 +8,6 @@ The dataset provides an overview of global energy dynamics. It shows different v
 
 Detailed description of each variable in the dataset. 
 
-Certainly! Here's the updated table without the "Range" column:
-
-```markdown
 | Variable Name                     | Description                                      | Frequency     | Unit                   | Type                    |
 | --------------------------------- | ------------------------------------------------ | ------------- | ---------------------- | ----------------------- |
 | country                           | Geographic location                             | -             | -                      | String                 |
