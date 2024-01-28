@@ -124,10 +124,7 @@ Detailed description of each variable in the dataset.
 | wind_share_energy           | Share of primary energy consumption from wind power          | -         | %               | Measured            |
 
 
-
 ## Dataset Information - [owed-energy-data.csv](owid-energy-data.csv)
-
-## Dataset Information
 
 ### Data Source
 The primary dataset utilized for this research is sourced from Our World in Data (OWID) [OWID Energy Dataset](owid-energy-data.csv).
@@ -142,3 +139,90 @@ The OWID Energy Dataset includes relevant variables such as GDP, biofuel consump
 ## References
 
 Rosado, Pablo., Ritchie, Hannah., and Roser, Max. 2023. "Energy." OurWorldInData.org. Retrieved from 'https://ourworldindata.org/energy' [Online Resource].
+
+---
+markmap:
+  colorFreezeLevel: 2
+---
+
+# Investigating the Impact of External Factors in Energy Consumption Anomalies
+
+## Dataset Structure
+
+### Data Source
+The primary dataset used for this research is obtained from Our World in Data (OWID).
+
+### Overview
+
+The dataset includes various variables related to global energy dynamics, providing insights into energy consumption, production, and environmental impact.
+
+### Energy Variables
+
+- **Country Names**
+- **Years**
+- **Population**
+- **GDP**
+
+### Energy Production
+
+- **Biofuel Consumption**
+- **Coal Usage**
+- **Gas Consumption**
+- **Nuclear Power**
+- **Oil Consumption**
+- **Hydropower**
+- **Low-Carbon Energy**
+- **Renewables**
+
+### External Factors
+
+- **Economic Events**
+- **Policy Changes**
+- **Global Phenomena**
+- **COP28 Results**
+
+## Flowchart
+
+```mermaid
+graph TB
+  subgraph "Energy Variables"
+    A[Country Names]
+    B[Years]
+    C[Population]
+    D[GDP]
+  end
+
+  subgraph "Energy Production"
+    E[Biofuel Consumption]
+    F[Coal Usage]
+    G[Gas Consumption]
+    H[Nuclear Power]
+    I[Oil Consumption]
+    J[Hydropower]
+    K[Low-Carbon Energy]
+    L[Renewables]
+  end
+
+  subgraph "External Factors"
+    M[Economic Events]
+    N[Policy Changes]
+    O[Global Phenomena]
+    P[COP28 Results]
+  end
+
+  A --> E
+  B --> F
+  C --> G
+  D --> H
+  E --> |
+  F --> |
+  G --> |
+  H --> |
+  I --> |
+  J --> |
+  K --> |
+  L --> |
+  M --> |
+  N --> |
+  O --> |
+  P --> |
