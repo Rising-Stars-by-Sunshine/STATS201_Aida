@@ -42,7 +42,7 @@ The data downloaded was already orginized in a CSV file.
 **Step 3**
 
 Looking at the data in the csv file, it is clear that the data needs to be cleaned to remove null values focusing on the research question at hand. For this, the plan is to use python libraries such as Pandas. 
----
+
 
 # Data Visualization
 
@@ -121,7 +121,6 @@ Variables: energy_cons_change_pct, renewables_cons_change_pct, countries, year
 
 *Figure 1: Data Query and visualization process flowchart. Created with Whimsical*
 
----
 
 ## Data Query Process (pseudo-code)
 
