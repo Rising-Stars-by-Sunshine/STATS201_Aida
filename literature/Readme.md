@@ -7,7 +7,7 @@
   </kbd>
 </p>
 
-*Figure 1: Map of the literature research. Created with Whimsical*
+*Figure 1: Map of literature research. Created with Whimsical*
 
 
 ### Introduction of the paper
