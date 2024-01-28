@@ -1,7 +1,11 @@
 # Understand Literature at the Frontiers of Machine Learning for Social Science.
 
+<p align="center">
+  <kbd>
+    <img src="STATS201_Aida/literature/Literature_mindmap.png" alt="Flowchart" width="200"/>
+  </kbd>
+</p>
 
-![Flowchart](STATS201_Aida/literature/Literature_mindmap.png)
 *Figure 1: Map of the research proposal. Created with Whimsical*
 
 ## 1.1 Paper Analysis
