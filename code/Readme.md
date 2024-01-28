@@ -46,7 +46,7 @@ Looking at the data in the csv file, it is clear that the data needs to be clean
 # Data Visualization
 
 ### Visualization 1
-The data visualization was done using the dash app. This [file](app1.py) contians the code to run the interactive plot of a Time Series analysis of Energy Production including, total electricity generation, from fossil fuels, and from renewables. Below are the static plots of these variables throughout time for the US. The reason why only teh US is shown is because there are a lot of locations repreesnted in the dataset and the visualization of only one major power is enough to get an idea of waht the raw data shows. To interact with the plot, run the code on your local computer. 
+The data visualization was done using the dash app. This [file](app1.py) contians the code to run the interactive plot of a Time Series analysis of Energy Production including, total electricity generation, from fossil fuels, and from renewables. Below are the static plots of these variables throughout time for the US. The reason why only teh US is shown is because there are a lot of locations repreesnted in the dataset and the visualization of only one major power is enough to get an idea of waht the raw data shows. To interact with the plot, run the code on your local computer. Alternatively, go to this [Google Colab](https://colab.research.google.com/drive/1danKQTxQ5RsbSFg-0PJWhEhdRlR1jZqT?usp=sharing)to interact with the plot.
 
 Variables: electricity_generation, renewables_electricity, and fossil_electricity, year, country = US
 
@@ -76,7 +76,7 @@ Variables: electricity_generation, renewables_electricity, and fossil_electricit
 
 
 ### Visualization 2
-This [file](app2.py) contians the code to run the interactive plot of a Global Distribution Choropleth Map that explores how different countries contribute to energy production. 
+This [file](app2.py) contians the code to run the interactive plot of a Global Distribution Choropleth Map that explores how different countries contribute to energy production. Alternatively, go to this [Google Colab](https://colab.research.google.com/drive/1xJ69o6yf3ww4jucHsBnAQGiYUPdj1jWc?usp=sharing)to interact with the plot.
 
 Variables: country, population, electricity_generation
 
@@ -89,7 +89,7 @@ Variables: country, population, electricity_generation
 *Figure 4: Total Electricity produced in different countries. Image created with Dash app*
 
 ### Visualization 3
-This [file](app3.py) contians the code to run the interactive plot of Anomaly Detection to identify anomalies or changes in energy consumption patterns.
+This [file](app3.py) contians the code to run the interactive plot of Anomaly Detection to identify anomalies or changes in energy consumption patterns. Alternatively, go to this [Google Colab](https://colab.research.google.com/drive/1SSkIpLYBewnOZaXM9qjeW7d6ijQCQej6?usp=sharing)to interact with the plot.
 
 Variables: energy_cons_change_pct, renewables_cons_change_pct, countries, year
 
