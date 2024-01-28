@@ -26,16 +26,16 @@
 
 2. [Data](data/Readme.md)
    - [Sample Data](./data/owid-energy-data.csv)
-   - [Data Description](./Data/Readme.md#data-dictionary)
-   - [Data Set Structure](./Data/Readme.md#dataset-structure)
-   - [References](./Data/Readme.md#references)
+   - [Data Description](./data/Readme.md#data-dictionary)
+   - [Data Set Structure](./data/Readme.md#dataset-structure)
+   - [References](./data/Readme.md#references)
 
 3. [Code](code/Readme.md)
-   - [Sample Code](./Code/Readme.md#upload-sample-code)
-   - [Data Query Process](./Code/Readme.md#generate-a-readmemd-file-detailing-the-data-query-process)
-   - [Pseudo-code](./Code/Readme.md#embed-in-the-readmemd-the-pseudo-code-for-the-data-query-process)
-   - [Flowchart](./Code/Readme.md#create-a-flowchart)
-   - [References](./Code/Readme.md#provide-references)
+   - [Sample Code](./code/Readme.md#upload-sample-code)
+   - [Data Query Process](./code/Readme.md#generate-a-readmemd-file-detailing-the-data-query-process)
+   - [Pseudo-code](./code/Readme.md#embed-in-the-readmemd-the-pseudo-code-for-the-data-query-process)
+   - [Flowchart](./code/Readme.md#create-a-flowchart)
+   - [References](./code/Readme.md#provide-references)
 
 
 
