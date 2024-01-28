@@ -140,15 +140,10 @@ The OWID Energy Dataset includes relevant variables such as GDP, biofuel consump
 
 Rosado, Pablo., Ritchie, Hannah., and Roser, Max. 2023. "Energy." OurWorldInData.org. Retrieved from 'https://ourworldindata.org/energy' [Online Resource].
 
-# Investigating the Impact of External Factors in Energy Consumption Anomalies
 
 ## Dataset Structure
 
-### Data Source
-The primary dataset used for this research is obtained from Our World in Data (OWID).
-
 ### Overview
-
 The dataset includes various variables related to global energy dynamics, providing insights into energy consumption, production, and environmental impact.
 
 <p align="center">
