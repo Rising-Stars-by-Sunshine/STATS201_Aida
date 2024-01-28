@@ -108,3 +108,14 @@ Variables: energy_cons_change_pct, renewables_cons_change_pct, countries, year
 </p>
 
 *Figure 6: Renewables Consumption Change Percentage. Image created with Dash app*
+
+
+## Data Query flowchart
+
+<p align="center">
+  <kbd>
+    <img src="Data_mindmap.png" alt="Flowchart" width="600"/>
+  </kbd>
+</p>
+
+*Figure 1: Data structure flowchart. Created with Whimsical*
