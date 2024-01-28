@@ -14,7 +14,7 @@
 The selected paper, titled "Power Consumption Predicting and Anomaly Detection Based on Transformer and K-Means" investigates the growing complexity of modern power grids and the changing patterns of electrical energy utilization. Written by Junfeng Zhang, Hui Zhang, Song Ding, and Xiaoxiong Zhang in 2021, the research focuses on monitoring electrical loads for early detection of abnormalities, which is crucial for power grid maintenance and theft prevention. *Figure 1* shows a detailed flowchart of this essay, providing an overview of the research proposal. 
 
 ### Background/Motivation
-In recent times, the power system has witnessed significant advancements due to the integration of technology and science. The increasing complexity of modern power grids, coupled with a rise in domestic electrical energy demand, necessitates a shift towards intelligent and flexible power systems. Residences and commercial buildings contribute substantially to global electricity use. The evolution of the power system towards sustainability prompts the implementation of advanced information transmission technologies for convenient and secure grid processing. However, challenges such as variable energy consumption patterns, anomalies in electrical loads, and power theft create a need for effective monitoring and detection mechanisms.
+In recent times, the power system has witnessed significant advancements due to the integration of technology and science. The increasing complexity of modern power grids, coupled with a rise in domestic electrical energy demand, necessitates a shift towards intelligent and flexible power systems. Residences and commercial buildings contribute substantially to global electricity use (Desai, 2017). The evolution of the power system towards sustainability prompts the implementation of advanced information transmission technologies for convenient and secure grid processing. However, challenges such as variable energy consumption patterns, anomalies in electrical loads, and power theft create a need for effective monitoring and detection mechanisms (Zhang et.al, 2021).
 
 ### Research Question
 The research aims to answer the following questions:
@@ -24,7 +24,7 @@ The research aims to answer the following questions:
 3. What is the anomaly detection performance of the proposed model in comparison to K-means and LSTM?
 
 ### Application Scenarios
-The research holds importance in several application scenarios, contributing to the enhancement of power grid maintenance, energy savings, and power theft prevention. The findings have implications for identifying abnormal consumption patterns, promoting electricity consumption safety awareness, and improving overall energy efficiency. Given that anomalies in data may indicate malfunctions, the research addresses real-world issues by offering a solution for anomaly detection, particularly in the context of power theft, which accounts for a significant portion of energy loss in some developing countries.
+The research holds importance in several application scenarios, contributing to the enhancement of power grid maintenance, energy savings, and power theft prevention. The findings have implications for identifying abnormal consumption patterns, promoting electricity consumption safety awareness, and improving overall energy efficiency. Given that anomalies in data may indicate malfunctions, the research addresses real-world issues by offering a solution for anomaly detection, particularly in the context of power theft, which accounts for a significant portion of energy loss in some developing countries (Antmann,2009).
 
 The research is inspired by the unsolved challenges in power consumption prediction and anomaly detection. The variability in electric energy usage, the presence of anomalies, and the need for efficient detection methods pose challenges to existing models. Traditional models often focus on univariate prediction and anomaly detection, limiting their applicability in scenarios with diverse variables. While LSTM models have been widely used, they face challenges in processing time series features efficiently.
 
@@ -52,4 +52,8 @@ The research advances existing literature by proposing a novel combination of th
 The research has potential applications in real-world scenarios by contributing to more accurate power consumption forecasting and effective anomaly detection. This could aid decision-makers in energy-related fields, enhance energy efficiency, and address issues such as power theft in developing countries. The proposed model presents opportunities for practical implementation in power grid management and electricity consumption safety.
 
 ### References
-Zhang, Junfeng, Hui Zhang, Song Ding, and Xiaoxiong Zhang. "Power Consumption Predicting and Anomaly Detection Based on Transformer and K-Means." *Frontiers in Energy Research* 9 (2021): [Page Range]. https://www.frontiersin.org/articles/10.3389/fenrg.2021.779587. DOI: 10.3389/fenrg.2021.779587. ISSN: 2296-598X.
+Antmann, P. (2009). Reducing Technical and Non-technical Losses in the Power Sector.
+
+Desai, B. H.(2017). "United Nations Environment Program (Unep)." *Yearbook of International Environmental Law*: 498–505. doi:10.1093/yiel/yvy072.
+
+Zhang, Junfeng, Hui Zhang, Song Ding, and Xiaoxiong Zhang. (2021). "Power Consumption Predicting and Anomaly Detection Based on Transformer and K-Means." *Frontiers in Energy Research*. https://www.frontiersin.org/articles/10.3389/fenrg.2021.779587. DOI: 10.3389/fenrg.2021.779587. ISSN: 2296-598X.
