@@ -8,64 +8,126 @@ The dataset provides an overview of global energy dynamics. It shows different v
 
 Detailed description of each variable in the dataset. 
 
-| Variable Name                     | Description                                      | Frequency     | Range           | Unit                   | Type                    |
-| --------------------------------- | ------------------------------------------------ | ------------- | --------------- | ---------------------- | ----------------------- |
-| country                           | Country - Geographic location.                                    | -             | -               | -                      | String                 |
-| year                              | Year of observation                             | Annual        |  -              | -                      | Integer                |
-| iso_code                          | ISO country code                                | -             | -               | -                      | String                 |
-| population                        | Total population                                | Annual        | -               | -                      | Integer                |
-| gdp                               | Gross Domestic Product                          | Annual        | -               | Currency (e.g., USD)   | Numeric                |
-| biofuel_cons_change_pct           | Percentage change in biofuel consumption        | Annual        | -               | Percentage             | Numeric                |
-| biofuel_cons_change_twh           | Change in biofuel consumption (TWh)             | Annual        | -               | Terawatt-hour          | Numeric                |
-| biofuel_cons_per_capita           | Biofuel consumption per capita                 | Annual        | -               | -                      | Numeric                |
-| biofuel_consumption               | Total biofuel consumption                       | Annual        | -               | -                      | Numeric                |
-| biofuel_elec_per_capita           | Biofuel electricity per capita                 | Annual        | -               | -                      | Numeric                |
-| biofuel_electricity               | Total biofuel electricity generation           | Annual        | -               | -                      | Numeric                |
-| biofuel_share_elec                | Biofuel share in electricity generation        | Annual        | -               | Percentage             | Numeric                |
-| biofuel_share_energy              | Biofuel share in total energy consumption       | Annual        | -               | Percentage             | Numeric                |
-| carbon_intensity_elec             | Carbon intensity of electricity generation      | Annual        | -               | Grams CO2 per kWh      | Numeric                |
-| coal_cons_change_pct              | Percentage change in coal consumption          | Annual        | -               | Percentage             | Numeric                |
-| coal_cons_change_twh              | Change in coal consumption (TWh)               | Annual        | -               | Terawatt-hour          | Numeric                |
-| coal_cons_per_capita              | Coal consumption per capita                   | Annual        | -               | -                      | Numeric                |
-| coal_consumption                  | Total coal consumption                         | Annual        | -               | -                      | Numeric                |
-| coal_elec_per_capita              | Coal electricity per capita                    | Annual        | -               | -                      | Numeric                |
-| coal_electricity                  | Total coal electricity generation              | Annual        | -               | -                      | Numeric                |
-| coal_prod_change_pct              | Percentage change in coal production           | Annual        | -               | Percentage             | Numeric                |
-| coal_prod_change_twh              | Change in coal production (TWh)                | Annual        | -               | Terawatt-hour          | Numeric                |
-| coal_prod_per_capita              | Coal production per capita                    | Annual        | -               | -                      | Numeric                |
-| coal_production                   | Total coal production                          | Annual        | -               | -                      | Numeric                |
-| coal_share_elec                   | Coal share in electricity generation           | Annual        | -               | Percentage             | Numeric                |
-| coal_share_energy                 | Coal share in total energy consumption          | Annual        | -               | Percentage             | Numeric                |
-| electricity_demand                | Total electricity demand                      | Annual        | -               | -                      | Numeric                |
-| electricity_generation            | Total electricity generation                  | Annual        | -               | -                      | Numeric                |
-| electricity_share_energy          | Electricity share in total energy consumption   | Annual        | -               | Percentage             | Numeric                |
-| energy_cons_change_pct            | Percentage change in total energy consumption  | Annual        | -               | Percentage             | Numeric                |
-| energy_cons_change_twh            | Change in total energy consumption (TWh)       | Annual        | -               | Terawatt-hour          | Numeric                |
-| energy_per_capita                 | Total energy consumption per capita            | Annual        | -               | -                      | Numeric                |
-| energy_per_gdp                    | Energy consumption per unit of GDP             | Annual        | -               | -                      | Numeric                |
-| fossil_cons_change_pct            | Percentage change in fossil fuel consumption   | Annual        | -               | Percentage             | Numeric                |
-| fossil_cons_change_twh            | Change in fossil fuel consumption (TWh)        | Annual        | -               | Terawatt-hour          | Numeric                |
-| fossil_elec_per_capita            | Fossil fuel electricity per capita             | Annual        | -               | -                      | Numeric                |
-| fossil_electricity                | Total fossil fuel electricity generation      | Annual        | -               | -                      | Numeric                |
-| fossil_energy_per_capita           | Fossil fuel energy consumption per capita     | Annual        | -               | -                      | Numeric                |
-| fossil_fuel_consumption           | Total fossil fuel consumption                  | Annual        | -               | -                      | Numeric                |
-| fossil_share_elec                 | Fossil fuel share in electricity generation    | Annual        | -               | Percentage             | Numeric                |
-| fossil_share_energy               | Fossil fuel share in total energy consumption   | Annual        | -               | Percentage             | Numeric                |
-| gas_cons_change_pct               | Percentage change in gas consumption           | Annual        | -               | Percentage             | Numeric                |
-| gas_cons_change_twh               | Change in gas consumption (TWh)                | Annual        | -               | Terawatt-hour          | Numeric                |
-| gas_consumption                   | Total gas consumption                           | Annual        | -               | -                      | Numeric                |
-| gas_elec_per_capita               | Gas electricity per capita                     | Annual        | -               | -                      | Numeric                |
-| gas_electricity                   | Total gas electricity generation               | Annual        | -               | -                      | Numeric                |
-| gas_energy_per_capita              | Gas energy consumption per capita             | Annual        | -               | -                      | Numeric                |
-| gas_prod_change_pct               | Percentage change in gas production            | Annual        | -               | Percentage             | Numeric                |
-| gas_prod_change_twh               | Change in gas production (TWh)                 | Annual        | -               | Terawatt-hour          | Numeric                |
-| gas_prod_per_capita               | Gas production per capita                      | Annual        | -               | -                      | Numeric                |
-| gas_production                    | Total gas production                            | Annual        | -               | -                      | Numeric                |
-| gas_share_elec                    | Gas share in electricity generation            | Annual        | -               | Percentage             | Numeric                |
-| gas_share_energy                  | Gas share in total energy consumption           | Annual        | -               | Percentage             | Numeric                |
-| greenhouse_gas_emissions          | Total greenhouse gas emissions                 | Annual        | -               | Grams CO2 equivalent  | Numeric                |
-| hydro_cons_change_pct             | Percentage change in hydro consumption         | Annual        | -               | Percentage             | Numeric                |
-| hydro_cons_change_twh            
+Certainly! Here's the updated table without the "Range" column:
+
+```markdown
+| Variable Name                     | Description                                      | Frequency     | Unit                   | Type                    |
+| --------------------------------- | ------------------------------------------------ | ------------- | ---------------------- | ----------------------- |
+| country                           | Geographic location                             | -             | -                      | String                 |
+| year                              | Year of observation                             | Annual        | -                      | Integer                |
+| iso_code                          | ISO 3166-1 alpha-3 three-letter country codes    | -             | -                      | String                 |
+| population                        | Population by country                           | Annual        | Persons                | Integer                |
+| gdp                               | Gross domestic product                           | Annual        | International-$ in 2011 prices| Numeric             |
+| biofuel_cons_change_pct           | Annual percentage change in biofuel consumption | Annual        | Percentage             | Numeric                |
+| biofuel_cons_change_twh           | Annual change in biofuel consumption (TWh)      | Annual        | Terawatt-hour          | Numeric                |
+| biofuel_cons_per_capita           | Biofuel consumption per capita                  | Annual        | Kilowatt-hour per person| Numeric                |
+| biofuel_consumption               | Primary energy consumption from biofuels        | Annual        | Terawatt-hour          | Numeric                |
+| biofuel_elec_per_capita           | Electricity generation from bioenergy per person| Annual        | Kilowatt-hour per person| Numeric                |
+| biofuel_electricity               | Electricity generation from bioenergy           | Annual        | Terawatt-hour          | Numeric                |
+| biofuel_share_elec                | Share of electricity from bioenergy             | Annual        | Percentage             | Numeric                |
+| biofuel_share_energy              | Share of primary energy from biofuels           | Annual        | Percentage             | Numeric                |
+| carbon_intensity_elec             | Carbon intensity of electricity                 | Annual        | Grams CO₂ equivalents per kilowatt-hour| Numeric  |
+| coal_cons_change_pct              | Annual percentage change in coal consumption    | Annual        | Percentage             | Numeric                |
+| coal_cons_change_twh              | Annual change in coal consumption (TWh)         | Annual        | Terawatt-hour          | Numeric                |
+| coal_cons_per_capita              | Coal consumption per capita                    | Annual        | Kilowatt-hour per person| Numeric                |
+| coal_consumption                  | Primary energy consumption from coal            | Annual        | Terawatt-hour          | Numeric                |
+| coal_elec_per_capita              | Electricity generation from coal per person     | Annual        | Kilowatt-hour per person| Numeric                |
+| coal_electricity                  | Electricity generation from coal                | Annual        | Terawatt-hour          | Numeric                |
+| coal_prod_change_pct              | Annual percentage change in coal production     | Annual        | Percentage             | Numeric                |
+| coal_prod_change_twh              | Annual change in coal production (TWh)          | Annual        | Terawatt-hour          | Numeric                |
+| coal_prod_per_capita              | Coal production per capita                      | Annual        | Kilowatt-hour per capita| Numeric                |
+| coal_production                   | Coal production                                  | Annual        | Terawatt-hour          | Numeric                |
+| coal_share_elec                   | Share of electricity from coal                  | Annual        | Percentage             | Numeric                |
+| coal_share_energy                 | Share of primary energy from coal               | Annual        | Percentage             | Numeric                |
+| electricity_demand                | Total electricity demand                       | Annual        | Terawatt-hour          | Numeric                |
+| electricity_generation            | Total electricity generation                   | Annual        | Terawatt-hour          | Numeric                |
+| electricity_share_energy          | Electricity share in total energy               | Annual        | Percentage             | Numeric                |
+| energy_cons_change_pct            | Annual percentage change in total energy consumption| Annual     | Percentage             | Numeric                |
+| energy_cons_change_twh            | Annual change in total energy consumption (TWh) | Annual        | Terawatt-hour          | Numeric                |
+| energy_per_capita                 | Primary energy consumption per capita           | Annual        | Kilowatt-hour per person| Numeric                |
+| energy_per_gdp                    | Primary energy consumption per GDP              | Annual        | Kilowatt-hour per International-$| Numeric        |
+| fossil_cons_change_pct            | Annual percentage change in fossil fuel consumption| Annual   | Percentage             | Numeric                |
+| fossil_cons_change_twh            | Annual change in fossil fuel consumption (TWh)  | Annual        | Terawatt-hour          | Numeric                |
+| fossil_elec_per_capita            | Electricity generation from fossil fuels per person| Annual| Kilowatt-hour per person| Numeric                |
+| fossil_electricity                | Electricity generation from fossil fuels        | Annual        | Terawatt-hour          | Numeric                |
+| fossil_energy_per_capita           | Primary energy consumption from fossil fuels per capita| Annual| Kilowatt-hour per person| Numeric           |
+| fossil_fuel_consumption           | Total fossil fuel consumption                   | Annual        | Terawatt-hour          | Numeric                |
+| fossil_share_elec                 | Share of electricity from fossil fuels          | Annual        | Percentage             | Numeric                |
+| fossil_share_energy               | Share of primary energy from fossil fuels
+
+       | Annual        | Percentage             | Numeric                |
+| gas_cons_change_pct               | Annual percentage change in gas consumption    | Annual        | Percentage             | Numeric                |
+| gas_cons_change_twh               | Annual change in gas consumption (TWh)         | Annual        | Terawatt-hour          | Numeric                |
+| gas_consumption                   | Total gas consumption                           | Annual        | Terawatt-hour          | Numeric                |
+| gas_elec_per_capita               | Electricity generation from gas per person      | Annual        | Kilowatt-hour per person| Numeric                |
+| gas_electricity                   | Electricity generation from gas                | Annual        | Terawatt-hour          | Numeric                |
+| gas_energy_per_capita              | Primary energy consumption from gas per capita | Annual        | Kilowatt-hour per person| Numeric                |
+| gas_prod_change_pct               | Annual percentage change in gas production     | Annual        | Percentage             | Numeric                |
+| gas_prod_change_twh               | Annual change in gas production (TWh)          | Annual        | Terawatt-hour          | Numeric                |
+| gas_prod_per_capita               | Gas production per capita                       | Annual        | Kilowatt-hour per capita| Numeric                |
+| gas_production                    | Total gas production                            | Annual        | Terawatt-hour          | Numeric                |
+| gas_share_elec                    | Share of electricity from gas                   | Annual        | Percentage             | Numeric                |
+| gas_share_energy                  | Share of primary energy from gas                | Annual        | Percentage             | Numeric                |
+| emissions_elec_generation         | Emissions from electricity generation          | Annual        | Million tonnes CO₂ equivalents| Numeric          |
+| hydropower_cons_change_pct        | Annual percentage change in hydropower consumption| Annual   | Percentage             | Numeric                |
+| hydropower_cons_change_twh        | Annual change in hydropower consumption (TWh)  | Annual        | Terawatt-hour          | Numeric                |
+| hydropower_cons_per_capita        | Primary energy consumption from hydropower per capita| Annual| Kilowatt-hour per person| Numeric           |
+| hydropower_elec_per_capita        | Electricity generation from hydropower per person| Annual| Kilowatt-hour per person| Numeric           |
+| hydropower_electricity            | Electricity generation from hydropower         | Annual        | Terawatt-hour          | Numeric                |
+| hydropower_share_elec             | Share of electricity from hydropower           | Annual        | Percentage             | Numeric                |
+| hydropower_share_energy           | Share of primary energy from hydropower        | Annual        | Percentage             | Numeric                |
+| low_carbon_cons_change_pct        | Annual percentage change in low-carbon energy consumption| Annual| Percentage       | Numeric                |
+| low_carbon_cons_change_twh        | Annual change in low-carbon energy consumption (TWh)| Annual   | Terawatt-hour       | Numeric           |
+| low_carbon_cons_per_capita        | Primary energy consumption from low-carbon sources per capita| Annual| Kilowatt-hour per person| Numeric    |
+| low_carbon_elec_per_capita        | Electricity generation from low-carbon sources per person| Annual| Kilowatt-hour per person| Numeric    |
+| low_carbon_electricity            | Electricity generation from low-carbon sources | Annual        | Terawatt-hour          | Numeric                |
+| low_carbon_share_elec             | Share of electricity from low-carbon sources   | Annual        | Percentage             | Numeric                |
+| low_carbon_share_energy           | Share of primary energy from low-carbon sources| Annual        | Percentage             | Numeric                |
+| net_elec_imports                  | Net electricity imports                         | Annual        | Terawatt-hour          | Numeric                |
+| net_imports_share_demand           | Net electricity imports as a share of demand    | Annual        | Percentage             | Numeric                |
+| nuclear_cons_change_pct           | Annual percentage change in nuclear power consumption| Annual| Percentage             | Numeric           |
+| nuclear_cons_change_twh           | Annual change in nuclear power consumption (TWh)| Annual       | Terawatt-hour          | Numeric                |
+| nuclear_cons_per_capita           | Primary energy consumption from nuclear power per capita| Annual| Kilowatt-hour per person| Numeric     |
+| nuclear_elec_per_capita           | Electricity generation from nuclear power per person| Annual| Kilowatt-hour per person| Numeric     |
+| nuclear_electricity               | Electricity generation from nuclear power      | Annual        | Terawatt-hour          | Numeric                |
+| nuclear_share_elec                | Share of electricity from nuclear power        | Annual        | Percentage             | Numeric                |
+| nuclear_share_energy              | Share of primary energy from nuclear power     | Annual        | Percentage             | Numeric                |
+| oil_cons_change_pct               | Annual percentage change in oil consumption    | Annual        | Percentage             | Numeric                |
+| oil_cons_change_twh               | Annual change in oil consumption (TWh)         | Annual        | Terawatt-hour          | Numeric                |
+| oil_cons_per_capita               | Primary energy consumption from oil per capita | Annual        | Kilowatt-hour per person| Numeric                |
+| oil_elec_per_capita               | Electricity generation from oil per person     | Annual        | Kilowatt-hour per person| Numeric                |
+| oil_electricity                   | Electricity generation from oil                | Annual        | Terawatt-hour          | Numeric                |
+| oil_production_per_capita         | Oil production per capita                       | Annual        | Kilowatt-hour per capita| Numeric                |
+| oil_production                    | Oil production                                   | Annual        | Terawatt-hour          | Numeric                |
+| oil_share_elec                    | Share of electricity from oil                   | Annual        | Percentage             | Numeric                |
+| oil_share_energy                  | Share of primary energy from oil                | Annual        | Percentage             | Numeric                |
+| renewables_cons                   | Primary energy consumption from other renewables| Annual        | Terawatt-hour          | Numeric                |
+| renewables_elec                   | Electricity generation from other renewables, including bioenergy| Annual| Terawatt-hour| Numeric                |
+| renewables_elec_excl_bio          | Electricity generation from other renewables, excluding bioenergy| Annual| Terawatt-hour| Numeric                |
+| renewables_cons_change_pct        | Annual percentage change in renewables consumption| Annual     | Percentage             | Numeric                |
+| renewables_cons_change_twh        | Annual change in renewables consumption (TWh) | Annual        | Terawatt-hour          | Numeric                |
+| renewables_per_capita             | Primary energy consumption from renewables per capita| Annual| Kilowatt-hour per person| Numeric          |
+| renewables_elec_per_capita        | Electricity generation from renewables per person| Annual| Kilowatt-hour per person| Numeric          |
+| renewables_electricity            | Electricity generation from renewables         | Annual        | Terawatt-hour          | Numeric                |
+| renewables_share_elec             | Share of electricity from renewables           | Annual        | Percentage             | Numeric                |
+| renewables_share_energy           | Share of primary energy from renewables        | Annual        | Percentage             | Numeric                |
+| solar_cons_change_pct             | Annual percentage change in solar power consumption| Annual    | Percentage             | Numeric                |
+| solar_cons_change_twh      | Annual change in solar power consumption                    | -         | terawatt-hours  | Input-equivalent    |
+| solar_consumption           | Primary energy consumption from solar power                  | Annual    | terawatt-hours  | Measured            |
+| solar_elec_per_capita       | Electricity generation from solar power per person           | -         | kilowatt-hours  | Measured            |
+| solar_electricity           | Electricity generation from solar power                      | Annual    | terawatt-hours  | Measured            |
+| solar_energy_per_capita     | Solar power consumption per capita                           | -         | kilowatt-hours  | Measured            |
+| solar_share_elec            | Share of electricity from solar power                         | -         | %               | Measured            |
+| solar_share_energy          | Share of primary energy consumption from solar power         | -         | %               | Measured            |
+| wind_cons_change_pct        | Annual percentage change in wind power consumption           | -         | %               | Input-equivalent    |
+| wind_cons_change_twh        | Annual change in wind power consumption                      | -         | terawatt-hours  | Input-equivalent    |
+| wind_consumption            | Primary energy consumption from wind power                   | Annual    | terawatt-hours  | Measured            |
+| wind_elec_per_capita        | Electricity generation from wind power per person            | -         | kilowatt-hours  | Measured            |
+| wind_electricity            | Electricity generation from wind power                       | Annual    | terawatt-hours  | Measured            |
+| wind_energy_per_capita      | Wind power consumption per capita                            | -         | kilowatt-hours  | Measured            |
+| wind_share_elec             | Share of electricity from wind power                          | -         | %               | Measured            |
+| wind_share_energy           | Share of primary energy consumption from wind power          | -         | %               | Measured            |
+
 
 
 ## Dataset CSV - [owed-energy-data.csv](owid-energy-data.csv)
