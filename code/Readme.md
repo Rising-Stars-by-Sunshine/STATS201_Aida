@@ -122,7 +122,7 @@ Variables: energy_cons_change_pct, renewables_cons_change_pct, countries, year
 *Figure 1: Data Query and visualization process flowchart. Created with Whimsical*
 
 
-## Data Query Process (pseudo-code)
+# Data Query Process (pseudo-code)
 
 ## 1. Data Collection:
 
