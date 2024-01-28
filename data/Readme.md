@@ -151,36 +151,10 @@ The primary dataset used for this research is obtained from Our World in Data (O
 
 The dataset includes various variables related to global energy dynamics, providing insights into energy consumption, production, and environmental impact.
 
-### Energy Variables
+<p align="center">
+  <kbd>
+    <img src="Data_mindmap.png" alt="Flowchart" width="600"/>
+  </kbd>
+</p>
 
-- **Country Names**
-- **Years**
-- **Population**
-- **GDP**
-
-### Energy Production
-
-- **Biofuel Consumption**
-- **Coal Usage**
-- **Gas Consumption**
-- **Nuclear Power**
-- **Oil Consumption**
-- **Hydropower**
-- **Low-Carbon Energy**
-- **Renewables**
-
-### External Factors
-
-- **Economic Events**
-- **Policy Changes**
-- **Global Phenomena**
-- **COP28 Results**
-
-## Flowchart
-
-<details>
-  <summary>Click to expand</summary>
-  
-  ![Flowchart](https://www.draw.io/?lightbox=1&edit=_blank&layers=1&nav=1&title=Energy%20Consumption%20Anomalies#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1CsBv7rPXMlQyV7XE_tWkNekFX9Q4I9L8)
-</details>
-
+*Figure 1: Data structure flowchart. Created with Whimsical*
