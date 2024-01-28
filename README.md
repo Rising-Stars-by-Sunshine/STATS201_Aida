@@ -48,7 +48,7 @@
   </kbd>
 </p>
 
-## Aida Camacho Ponce de Leon 👩‍💻🌎
+## Aida Camacho Ponce de León 👩‍💻🌎
 
 Hi! I'm Aida, originally from 🇲🇽 Mexico. I am form the class of 2026 at Duke Kunshan University. My major is Computation & Design with a track in Social Policy. Academically speaking, I have a deep passion for 💻📚 computational and statistical applications to social science issues, particularly 🌱 environmental policy. I am greatly interested in the intersection between computational and statistical sciences and social science. 
 
