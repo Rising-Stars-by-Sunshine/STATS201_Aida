@@ -1,9 +1,13 @@
-# Research Project on Applying Machine Learning to Frontier Social and Economic Issues
+# Understand Literature at the Frontiers of Machine Learning for Social Science.
+
+
+![Flowchart](STATS201_Aida/literature/Literature_mindmap.png)
+*Figure 1: Map of the research proposal. Created with Whimsical*
 
 ## 1.1 Paper Analysis
 
 ### Introduction of the paper
-The selected paper, titled "Power Consumption Predicting and Anomaly Detection Based on Transformer and K-Means" investigates the growing complexity of modern power grids and the changing patterns of electrical energy utilization. Written by Junfeng Zhang, Hui Zhang, Song Ding, and Xiaoxiong Zhang in 2021, the research focuses on monitoring electrical loads for early detection of abnormalities, which is crucial for power grid maintenance and theft prevention.
+The selected paper, titled "Power Consumption Predicting and Anomaly Detection Based on Transformer and K-Means" investigates the growing complexity of modern power grids and the changing patterns of electrical energy utilization. Written by Junfeng Zhang, Hui Zhang, Song Ding, and Xiaoxiong Zhang in 2021, the research focuses on monitoring electrical loads for early detection of abnormalities, which is crucial for power grid maintenance and theft prevention. *Figure 1* shows a detailed flowchart of this essay, providing an overview of the research proposal. 
 
 ### Background/Motivation
 In recent times, the power system has witnessed significant advancements due to the integration of technology and science. The increasing complexity of modern power grids, coupled with a rise in domestic electrical energy demand, necessitates a shift towards intelligent and flexible power systems. Residences and commercial buildings contribute substantially to global electricity use. The evolution of the power system towards sustainability prompts the implementation of advanced information transmission technologies for convenient and secure grid processing. However, challenges such as variable energy consumption patterns, anomalies in electrical loads, and power theft create a need for effective monitoring and detection mechanisms.
@@ -36,13 +40,12 @@ The potential findings include:
 2. Enhanced anomaly detection performance utilizing the proposed combination of Transformer and K-means.
 3. Evaluation of the model's performance against manually inserted abnormal data points.
 
-The implications of the findings include advancements in power consumption prediction and anomaly detection, particularly in combating power theft. However, the limitations may stem from the dimensionality of feature vectors and potential challenges in different scenarios.
+The implications of the findings include advancements in power consumption prediction and anomaly detection, particularly in combating power theft. However, the limitations may stem fro potential challenges in applying such findings in different scenarios.
 
 ### Intellectual Merits/Practical Impacts
 The research advances existing literature by proposing a novel combination of the Transformer model and K-means clustering for improved power consumption prediction and anomaly detection. While showcasing promising results, the study acknowledges limitations and suggests avenues for further research. The research could serve as a seminal paper inspiring future studies on intelligent power systems.
 
 The research has potential applications in real-world scenarios by contributing to more accurate power consumption forecasting and effective anomaly detection. This could aid decision-makers in energy-related fields, enhance energy efficiency, and address issues such as power theft in developing countries. The proposed model presents opportunities for practical implementation in power grid management and electricity consumption safety.
 
-**Figure 1: Flowchart of Machine Learning Impact on Social and Economic Issues**
-```markdown
-![Flowchart](link/to/flowchart/image.png)
+### References
+Zhang, Junfeng, Hui Zhang, Song Ding, and Xiaoxiong Zhang. "Power Consumption Predicting and Anomaly Detection Based on Transformer and K-Means." *Frontiers in Energy Research* 9 (2021): [Page Range]. https://www.frontiersin.org/articles/10.3389/fenrg.2021.779587. DOI: 10.3389/fenrg.2021.779587. ISSN: 2296-598X.
