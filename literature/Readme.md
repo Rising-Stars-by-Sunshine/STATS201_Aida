@@ -2,7 +2,7 @@
 
 <p align="center">
   <kbd>
-    <img src="STATS201_Aida/literature/Literature_mindmap.png" alt="Flowchart" width="200"/>
+    <img src="Literature_mindmap.png" alt="Flowchart" width="600"/>
   </kbd>
 </p>
 
