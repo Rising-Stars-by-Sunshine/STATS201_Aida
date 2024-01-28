@@ -1,6 +1,6 @@
 # Content on this Repository
 
-
+Welcome to my GitHub repository! Here, I am experiencing the world of machine learning and its role in untangling the complexities of real-world issues. In this repository I descibe my research that focuses on *Investigating the Impact of External Factors in Energy Consumption Anomalies Using Machine Learning Algorithms*. As my research delves into the exploration of machine learning methods, it looks to detect anomalies in energy consumption and production as an effect of policy changes. Thus, this repository documents the steps in this process. Namely, it includes various sections covering literature reviews, research idea, sample data, description of the data, and code from data query and visualization process. 
 
 ## Table of Contents
 
@@ -39,8 +39,6 @@
    - [Pseudo-code](./code/Readme.md#data-query-process-pseudo-code)
    - [Flowchart](./code/Readme.md#data-query-flowchart)
    - [References](./code/Readme.md#references)
-
-
 
 
 
