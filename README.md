@@ -4,9 +4,9 @@
 
 ## Table of Contents
 
-1. [About the Author](./Readme.md#About-the-author)
+1. [About the Author](./README.md#about-the-author)
       - Headshot
-      - Bio 
+      - Bio and Resume
 
 2. [Literature](literature/Readme.md)
    - [1.1. Paper Analysis](./literature/Readme.md#11-paper-analysis)
@@ -25,17 +25,17 @@
          - Intellectual Merits/Practical Impacts
 
 2. [Data](data/Readme.md)
-   - Sample Data
-   - Data Description
-   - Data Set Structure
-   - References
+   - [Sample Data](./data/owid-energy-data.csv)
+   - [Data Description](./Data/Readme.md#data-dictionary)
+   - [Data Set Structure](./Data/Readme.md#dataset-structure)
+   - [References](./Data/Readme.md#references)
 
 3. [Code](code/Readme.md)
-   - Sample Code
-   - Data Query Process
-   - Pseudo-code
-   - Flowchart
-   - References
+   - [Sample Code](./Code/Readme.md#upload-sample-code)
+   - [Data Query Process](./Code/Readme.md#generate-a-readmemd-file-detailing-the-data-query-process)
+   - [Pseudo-code](./Code/Readme.md#embed-in-the-readmemd-the-pseudo-code-for-the-data-query-process)
+   - [Flowchart](./Code/Readme.md#create-a-flowchart)
+   - [References](./Code/Readme.md#provide-references)
 
 
 
