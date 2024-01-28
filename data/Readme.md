@@ -4,7 +4,7 @@
 
 The dataset provides an overview of global energy dynamics. It shows different variables related to energy consumption, production, and environmental impact. For example, the names of several countries across the world,the year the data was recorded for that particular country, population, GDP, biofuel consumption, coal usage, gas consumption, nuclear power, oil consumption, hydropower, low-carbon energy, renewables (solar and wind power), and electricity generation. The dataset also describes diverse metrics such as per capita measures, annual changes, and percentage shares, offering valuable insights in the global use energy. As the OWID site explains, the "complete Energy dataset is a collection of key metrics maintained by Our World in Data. It is updated regularly and includes data on energy consumption (primary energy, per capita, and growth rates), energy mix, electricity mix and other relevant metrics" (Rosado et.al, 2023).
 
-## Dataset description of variables 
+## Data Dictionary
 
 Detailed description of each variable in the dataset. 
 
@@ -125,10 +125,20 @@ Detailed description of each variable in the dataset.
 
 
 
-## Dataset CSV - [owed-energy-data.csv](owid-energy-data.csv)
+## Dataset Information - [owed-energy-data.csv](owid-energy-data.csv)
 
-This file is the complete dataset. Due to its size, no preview is available in Github but it can still be downloaded from this link.
+## Dataset Information
+
+### Data Source
+The primary dataset utilized for this research is sourced from Our World in Data (OWID) [OWID Energy Dataset](owid-energy-data.csv).
+
+### Justification for Dataset Selection
+
+The selection of the OWID Energy Dataset is based on several considerations that align with the research objectives. Our World in Data is a reputable scientific online platform known for providing comprehensive and reliable datasets on global issues, including energy dynamics. The dataset contains a rich collection of variables related to energy consumption, production, and environmental impact, making it well-suited for investigating the impact of external factors on energy anomalies (Rosado et al., 2023).
+
+The OWID Energy Dataset includes relevant variables such as GDP, biofuel consumption, coal usage, gas consumption, nuclear power, oil consumption, hydropower, low-carbon energy, renewables, and others (Rosado et al., 2023). These variables align with the economic indicators, policy changes, and global events outlined in the research questions. Moreover, the dataset provides a comprehensive overview of global energy dynamics, offering a holistic view of the energy landscape. This aligns with the research's goal of understanding the influence of external factors on anomalies in energy consumption and production.
+
 
 ## References
 
-Ritchie, Hannah, Pablo Rosado, and Max Roser. 2023. "Energy." OurWorldInData.org. Retrieved from 'https://ourworldindata.org/energy' [Online Resource].
+Rosado, Pablo., Ritchie, Hannah., and Roser, Max. 2023. "Energy." OurWorldInData.org. Retrieved from 'https://ourworldindata.org/energy' [Online Resource].
