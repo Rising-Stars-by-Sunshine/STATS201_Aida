@@ -44,4 +44,28 @@ The data downloaded was already orginized in a CSV file.
 Looking at the data in the csv file, it is clear that the data needs to be cleaned to remove null values focusing on the research question at hand. For this, the plan is to use python libraries such as Pandas. 
 
 # Data Visualization
+The data visualization was done using the dash app. This [file](app.py) contians the code to run the interactive plot of a Time Series analysis of Energy Production including, total electricity generation, from fossil fuels, and from renewables. Below are the static plots of these variables throughout time for the US. The reason why only teh US is shown is because there are a lot of locations repreesnted in the dataset and the visualization of only one major power is enough to get an idea of waht the raw data shows. To interact with the plot, run the code on your local computer. 
 
+<p align="left">
+  <kbd>
+    <img src="Energy_fossil.png" alt="dash"/>
+  </kbd>
+</p>
+
+*Figure 1: Electricity produced in the US by Fossil Fuels thourhgout time. Image created with Dash app*
+
+<p align="center">
+  <kbd>
+    <img src="Energy_renewables.png" alt="dash"/>
+  </kbd>
+</p>
+
+*Figure 2: Electricity produced in the US by Renewable sources throughout time. Image created with Dash app*
+
+<p align="right">
+  <kbd>
+    <img src="Energy_total_electricity.png" alt="dash"/>
+  </kbd>
+</p>
+
+*Figure 3: Total Electricity produced in the US throughout time. Image created with Dash app*
