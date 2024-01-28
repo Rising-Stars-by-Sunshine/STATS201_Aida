@@ -31,8 +31,11 @@
    - [References](./data/Readme.md#references)
 
 3. [Code](code/Readme.md)
-   - [Sample Code](./code/Readme.md#upload-sample-code)
-   - [Data Query Process](./code/Readme.md#generate-a-readmemd-file-detailing-the-data-query-process)
+   - [Data Query Process](./code/Readme.md#data-query)
+   - [Sample Code](./code/Readme.md#data-visualization)
+      - [App of visualization 1](./code/Readme.md#visualization-1)
+      - [App of visualization 2](./code/Readme.md#visualization-2)
+      - [App of visualization 3](./code/Readme.md#visualization-3)
    - [Pseudo-code](./code/Readme.md#embed-in-the-readmemd-the-pseudo-code-for-the-data-query-process)
    - [Flowchart](./code/Readme.md#create-a-flowchart)
    - [References](./code/Readme.md#provide-references)

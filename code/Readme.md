@@ -45,8 +45,10 @@ Looking at the data in the csv file, it is clear that the data needs to be clean
 
 # Data Visualization
 
-### Figure 1
+### Visualization 1
 The data visualization was done using the dash app. This [file](app1.py) contians the code to run the interactive plot of a Time Series analysis of Energy Production including, total electricity generation, from fossil fuels, and from renewables. Below are the static plots of these variables throughout time for the US. The reason why only teh US is shown is because there are a lot of locations repreesnted in the dataset and the visualization of only one major power is enough to get an idea of waht the raw data shows. To interact with the plot, run the code on your local computer. 
+
+Variables: electricity_generation, renewables_electricity, and fossil_electricity, year, country = US
 
 <p align="left">
   <kbd>
@@ -73,8 +75,10 @@ The data visualization was done using the dash app. This [file](app1.py) contian
 *Figure 3: Total Electricity produced in the US throughout time. Image created with Dash app*
 
 
-### Figure 2
+### Visualization 2
 This [file](app2.py) contians the code to run the interactive plot of a Global Distribution Choropleth Map that explores how different countries contribute to energy production. 
+
+Variables: country, population, electricity_generation
 
 <p align="center">
   <kbd>
@@ -82,4 +86,25 @@ This [file](app2.py) contians the code to run the interactive plot of a Global D
   </kbd>
 </p>
 
-*Figure 3: Total Electricity produced in different countries. Image created with Dash app*
+*Figure 4: Total Electricity produced in different countries. Image created with Dash app*
+
+### Visualization 3
+This [file](app3.py) contians the code to run the interactive plot of Anomaly Detection to identify anomalies or changes in energy consumption patterns.
+
+Variables: energy_cons_change_pct, renewables_cons_change_pct, countries, year
+
+<p align="center">
+  <kbd>
+    <img src="Energy_Consumption_Change.png" alt="dash"/>
+  </kbd>
+</p>
+
+*Figure 5: Energy Consumption Change Percentage. Image created with Dash app*
+
+<p align="center">
+  <kbd>
+    <img src="Renewables_Consumption_Change.png" alt="dash"/>
+  </kbd>
+</p>
+
+*Figure 6: Renewables Consumption Change Percentage. Image created with Dash app*
