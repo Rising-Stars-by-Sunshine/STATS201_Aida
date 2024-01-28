@@ -10,19 +10,19 @@
 
 2. [Literature](literature/Readme.md)
    - [1.1. Paper Analysis](./literature/Readme.md#11-paper-analysis)
-         - Background/Motivation
-         - Research Question
-         - Application Scenarios
-         - Methodology
-         - Results
-         - Intellectual Merits/Practical Impacts
+      - Background/Motivation
+      - Research Question
+      - Application Scenarios
+      - Methodology
+      - Results
+      - Intellectual Merits/Practical Impacts
    - [1.2. Research Idea](./literature/Readme.md#12-research-idea)
-         - Background/Motivation
-         - Research Question
-         - Application Scenarios
-         - Methodology
-         - Results
-         - Intellectual Merits/Practical Impacts
+      - Background/Motivation
+      - Research Question
+      - Application Scenarios
+      - Methodology
+      - Results
+      - Intellectual Merits/Practical Impacts
 
 2. [Data](data/Readme.md)
    - [Sample Data](./data/owid-energy-data.csv)
