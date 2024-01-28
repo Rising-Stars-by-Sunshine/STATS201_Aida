@@ -114,8 +114,8 @@ Variables: energy_cons_change_pct, renewables_cons_change_pct, countries, year
 
 <p align="center">
   <kbd>
-    <img src="Data_mindmap.png" alt="Flowchart" width="600"/>
+    <img src="DataQuery.png" alt="Flowchart" width="600"/>
   </kbd>
 </p>
 
-*Figure 1: Data structure flowchart. Created with Whimsical*
+*Figure 1: Data Query and visualization process flowchart. Created with Whimsical*
