@@ -10,7 +10,7 @@ Detailed description of each variable in the dataset.
 
 | Variable Name                     | Description                                      | Frequency     | Range           | Unit                   | Type                    |
 | --------------------------------- | ------------------------------------------------ | ------------- | --------------- | ---------------------- | ----------------------- |
-| country                           | Country name                                    | -             | -               | -                      | String                 |
+| country                           | Country - Geographic location.                                    | -             | -               | -                      | String                 |
 | year                              | Year of observation                             | Annual        |  -              | -                      | Integer                |
 | iso_code                          | ISO country code                                | -             | -               | -                      | String                 |
 | population                        | Total population                                | Annual        | -               | -                      | Integer                |
