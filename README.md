@@ -36,7 +36,7 @@
       - [App of visualization 1](./code/Readme.md#visualization-1)
       - [App of visualization 2](./code/Readme.md#visualization-2)
       - [App of visualization 3](./code/Readme.md#visualization-3)
-   - [Pseudo-code](./code/Readme.md#embed-in-the-readmemd-the-pseudo-code-for-the-data-query-process)
+   - [Pseudo-code](./code/Readme.md#data-query-process-pseudo-code)
    - [Flowchart](./code/Readme.md#data-query-flowchart)
    - [References](./code/Readme.md#provide-references)
 
